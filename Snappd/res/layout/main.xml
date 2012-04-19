@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:background="@drawable/background" android:orientation="horizontal">
+
+	<FrameLayout android:id="@+id/preview"
+		android:layout_width="match_parent" android:layout_height="match_parent" />
+
+	<RelativeLayout android:id="@+id/button_container"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_margin="6dp" android:layout_toRightOf="@id/preview">
+
+		<ImageView android:id="@+id/last" android:layout_width="100dp"
+			android:layout_height="100dp" android:layout_marginBottom="5dp">
+		</ImageView>
+
+		<ImageButton android:id="@+id/wb" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@id/last"
+			android:layout_marginBottom="5dp" android:background="@android:color/transparent"
+			android:orientation="horizontal" android:src="@drawable/aw_button">
+		</ImageButton>
+
+		<ImageButton android:id="@+id/res" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true"
+			android:layout_below="@id/last" android:layout_marginBottom="5dp"
+			android:layout_toRightOf="@id/wb" android:background="@android:color/transparent"
+			android:orientation="horizontal">
+		</ImageButton>
+
+		<ImageButton android:id="@+id/shutter"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentLeft="true" android:layout_below="@id/wb"
+			android:layout_marginBottom="5dp" android:background="@android:color/transparent"
+			android:orientation="horizontal" android:src="@drawable/shutter_button">
+		</ImageButton>
+
+		<ImageButton android:id="@+id/minus" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@id/shutter"
+			android:layout_marginBottom="5dp" android:background="@android:color/transparent"
+			android:orientation="horizontal" android:src="@drawable/minus_button">
+		</ImageButton>
+
+		<ImageButton android:id="@+id/plus" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true"
+			android:layout_below="@id/shutter" android:layout_marginBottom="5dp"
+			android:layout_toRightOf="@id/minus" android:background="@android:color/transparent"
+			android:orientation="horizontal" android:src="@drawable/plus_button">
+		</ImageButton>
+
+		<ImageButton android:id="@+id/switcher"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_below="@id/minus" android:layout_marginBottom="5dp"
+			android:visibility="invisible" android:background="@android:color/transparent"
+			android:orientation="horizontal" android:src="@drawable/switcher_button">
+		</ImageButton>
+
+		<ImageButton android:id="@+id/flash" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true"
+			android:layout_below="@id/plus" android:layout_marginBottom="5dp"
+			android:layout_toRightOf="@id/switcher" android:background="@android:color/transparent"
+			android:orientation="horizontal" android:src="@drawable/flash_off_button">
+		</ImageButton>
+	</RelativeLayout>
+
+</RelativeLayout>

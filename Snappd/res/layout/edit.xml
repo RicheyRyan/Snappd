@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/edit_root"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:contentDescription="TODO"/>
+
+    <ImageButton
+        android:id="@+id/undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/preview"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:src="@drawable/undo_button"
+        android:contentDescription="TODO" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/undo"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:src="@drawable/redo_button"
+        android:contentDescription="TODO" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/crop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/undo"
+        android:layout_below="@+id/undo"
+        android:layout_marginLeft="19dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/crop_button"
+        android:contentDescription="TODO" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/rotate_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/crop"
+        android:layout_below="@+id/crop"
+        android:background="@android:color/transparent"
+        android:src="@drawable/rotate_left_button" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/rotate_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rotate_left"
+        android:layout_below="@+id/rotate_left"
+        android:background="@android:color/transparent"
+        android:src="@drawable/rotate_right_button" >
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rotate_right"
+        android:layout_below="@+id/rotate_right"
+        android:background="@android:color/transparent"
+        android:src="@drawable/share_button" >
+    </ImageButton>
+
+</RelativeLayout>

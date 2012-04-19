@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Snappd!</string>
+    <string name="menu_focus">Focus Setting</string>
+    <string name="flash_dialog">Pick a flash mode:</string>
+    <string name="wb_dialog">Pick a white balance preset:</string>
+    <string name="menu_exp">Exposure</string>
+    <string name="menu_colour">Colour Mode</string>
+    <string name="menu_quality">Image Quality</string>
+    <string name="menu_shutter">Shutter Sound</string>
+    <string name="menu_scene">Scene Setting</string>
+
+    <string-array name="quality_settings">
+        <item >Superfine</item>
+        <item >Fine</item>
+        <item >Normal</item>
+        <item >Basic</item>
+    </string-array>
+    <string name="quality_dialog">Pick image quality:</string>
+
+</resources>
