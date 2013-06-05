@@ -13,7 +13,7 @@ It was also an opportunity to learn about programming for Android and with the c
 ## Functionality
 
 There are several options that could be adjusted with the app:
--White Balance
+-   White Balance
 -Focus Setting
 -Colour Mode
 -Image Quality
