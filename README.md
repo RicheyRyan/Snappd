@@ -8,7 +8,7 @@ This is Snappd, a camera application for Android Gingerbread 2.3.3.
 
 The purpose of this application was to create a camera application for Android phones with many features and that scaled across different screen sizes well.
 
-It was also an opportunity to learn about programming for Android and with the camera APIs in particular. 
+It was also an opportunity to learn about programming for Android and with the camera APIs in particular. It was a colloborative project between myself and a fellow student Shane. I handled the majority of the programming while Shane designed the UI and created the graphical assets for the app.
 
 ## Functionality
 
