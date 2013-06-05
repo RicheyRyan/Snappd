@@ -13,19 +13,19 @@ It was also an opportunity to learn about programming for Android and with the c
 ## Functionality
 
 There are several options that could be adjusted with the app:
-*White Balance
-*Focus Setting
-*Colour Mode
-*Image Quality
-*Scene Settings (Party, Night, Beach etc.)
-*Zoom
-*Resolution
-*Flash
+-White Balance
+-Focus Setting
+-Colour Mode
+-Image Quality
+-Scene Settings (Party, Night, Beach etc.)
+-Zoom
+-Resolution
+-Flash
 
 Certain editing features were also included such as:
-*Cropping
-*Rotation
-*Undo/Redo
+-Cropping
+-Rotation
+-Undo/Redo
 
 It was intended to allow for sharing functionality but this feature doesn't not work properly. Additionally, due to the fact that the app allows for very high quality images to be captured, the image editing functionality can lead the app to crash due to limited memory being available. 
 
